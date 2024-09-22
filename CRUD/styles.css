@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Geist';
+    src: url('Geist-Black.ttf') format('truetype');
+}
+
+body {
+    font-family: "Geist";
+    background: linear-gradient(135deg, #cc208e, #6713d2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:linear-gradient(180deg, #cc208e, #6713d2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.Judul_login{
+    font-size:50px;
+    text-align: left;
+    color: #e6e6e6;
+}
+h1 {
+    text-align: center;
+    color: #e6e6e6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+input, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background-color: #1c20f5;
+    color: rgb(221, 220, 230);
+    font-family: "Geist";
+    border:#e6e6e6;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f7f7f7;
+    color: rgb(23, 56, 240);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e6e6e6;
+}
+
+th, td, tr {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    color: #e6e6e6;
+}
+.but {
+    display: flex; /* Gunakan flexbox untuk baris */
+    align-items: center; /* Mengatur item di tengah secara vertikal */
+}
+.sub_button, .delete {
+    background-color: #f7f7f7;
+    color: rgb(70, 58, 248);
+    display: inline-block; /* Agar bisa diberikan padding dan margin */
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    text-align: center; /* Memastikan teks berada di tengah */
+    font-family: "Geist";
+}
+.sub_button:hover{
+    background-color: rgb(23, 56, 240);
+    color: rgb(245, 245, 245);
+}
+
+.delete:hover {
+    background-color: rgb(219, 25, 25);
+    color: #e9e9f3;
+}
+
+label {
+    color: #e6e6e6;
+}
+
+h6 {
+    margin-top: 10px; /* Tambahkan jarak di atas teks */
+    text-align: center; /* Agar teks berada di tengah */
+}
+
+h6 a {
+    margin-left: 5px; /* Jarak antara teks dan link */
+    text-decoration: none; /* Hilangkan garis bawah di link */
+}
